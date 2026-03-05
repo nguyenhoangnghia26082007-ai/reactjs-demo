@@ -7,6 +7,9 @@ export function Welcome() {
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
           <div className="w-[500px] max-w-[100vw] p-4">
+            <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-200 text-center">
+              Welcome to React Router
+            </h1>
             <img
               src={logoLight}
               alt="React Router"
