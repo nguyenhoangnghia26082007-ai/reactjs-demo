@@ -10,6 +10,10 @@ export function Welcome() {
             <h1 className="text-3xl font-bold text-gray-700 dark:text-gray-200 text-center">
               Welcome to React Router
             </h1>
+            <h2 className="text-lg text-gray-600 dark:text-gray-300 text-center">
+              This is a Remix app that demonstrates how to use React Router in a
+              Remix app.
+            </h2>
             <img
               src={logoLight}
               alt="React Router"
